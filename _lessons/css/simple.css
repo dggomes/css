@@ -1,0 +1,16 @@
+/* Sets the font, text color, and background color for the page.
+   These values will be applied to all elements in the page
+   unless overridden by subsequent style rules. */
+body {
+  font-family: "Palatino Linotype", "Verdana", sans-serif;
+  color: #034B61;
+  background-color: #EFECCA;
+}
+
+/* Overrides the body rule and colors level 1 headings red */
+h1 { 
+color: #900; 
+}
+p {
+ margin-left: 40px;
+}
